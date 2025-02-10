@@ -1,4 +1,4 @@
-import Navbar from "./components/navbar/navbar";
+import Navbar from "./components/layouts/navbar/navbar";
 import Footer from "./components/layouts/footer/footer";
 //De forma estatica
 export const metadata = {

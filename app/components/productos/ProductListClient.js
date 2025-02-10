@@ -27,7 +27,7 @@ const ProductsListClient = ({ categoria }) => {
         fetchProducts();
     }, [categoria, getProducts]);
 
-   
+
     if (!products || products.length === 0) {
         return (
             <div className="container m-auto text-center py-10">

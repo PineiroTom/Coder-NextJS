@@ -1,4 +1,4 @@
-import ProductsListClient from "./ProductsListClient";
+import ProductsListClient from "./ProductListClient";
 
 const ProductsList = ({ categoria }) => {
     return <ProductsListClient categoria={categoria} />;
