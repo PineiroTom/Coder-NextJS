@@ -1,7 +1,7 @@
 "use client";
 
-import { Suspense, useContext, useEffect, useState } from "react";
-import { CartContext } from "../../context/cartContext";
+import { useContext, useEffect, useState } from "react";
+import CartContext  from "../../context/cartContext";
 import ProductCard from "./ProductCard";
 
 const ProductsListClient = ({ categoria }) => {
