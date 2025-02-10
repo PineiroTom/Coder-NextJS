@@ -46,4 +46,4 @@ const ProductsListClient = ({ categoria }) => {
     );
 };
 
-export default ProductsListClient;
+export default ProductListClient;

@@ -1,7 +1,7 @@
-import ProductsListClient from "./ProductListClient";
+import ProductListClient from "./ProductListClient";
 
-const ProductsList = ({ categoria }) => {
-    return <ProductsListClient categoria={categoria} />;
+const ProductList = ({ categoria }) => {
+    return <ProductListClient categoria={categoria} />;
 };
 
-export default ProductsList;
+export default ProductList;
