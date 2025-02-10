@@ -1,7 +1,7 @@
 "use client";
 import { createContext, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
-import {db}  from "./firebaseconfig";
+import db  from "./firebaseconfig";
 
 export const CartContext = createContext();
 

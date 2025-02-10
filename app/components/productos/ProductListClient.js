@@ -1,7 +1,7 @@
 "use client";
 
 import { Suspense, useContext, useEffect, useState } from "react";
-import { CartContext } from "../../context/cartContext";
+import { CartContext } from "@/context/cartContext";
 import ProductCard from "./ProductCard";
 
 const ProductsListClient = ({ categoria }) => {
@@ -37,13 +37,12 @@ const ProductsListClient = ({ categoria }) => {
     }
 
     return (
-        <Suspense fallback={<div>Cargando productos...</div>}>
-            <section className="container m-auto flex justify-center items-center gap-12 flex-wrap">
-                {products.map((product) => (
-                    <ProductCard key={product.id} item={product} />
-                ))}
-            </section>
-        </Suspense>
+        <section className="container m-auto flex justify-center items-center gap-12 flex-wrap">
+            {products.map((product) => (
+                <ProductCard key={product.id} item={product} />
+            ))}
+        </section>
+
     );
 };
 
