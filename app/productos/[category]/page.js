@@ -1,4 +1,4 @@
-import { ProductList } from "../../components/productos/ProductList";
+import { ProductList } from "../../components/productos/ProductList.js";
 
 export default function CategoryPage({ params }) {
     const { category } = params;
